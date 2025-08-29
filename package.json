@@ -1,0 +1,24 @@
+{
+  "name": "bajaj-api",
+  "version": "1.0.0",
+  "description": "REST API for Bajaj Full Stack Assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "rest-api",
+    "full-stack"
+  ],
+  "author": "Sai Bharath Pediredla",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
